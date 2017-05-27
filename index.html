@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery-scroll-animate</title>
+	<link rel="stylesheet" href='src/animate.css'>
+	<script src='src/jquery-1.11.3.js'></script>
+	<script src='src/jquery-scroll-animate.js'></script>
+	<style>
+		.abc,.xyz{
+			width: 100%;
+			background: #ccc;
+		}
+		html,body{
+			margin: 0;
+			padding: 0;
+		}
+		h1,h2,p{
+			text-align: center;
+		}
+		.text{
+			padding: 150px 0;
+		}
+		.abc:nth-of-type(2n){
+			background: #eee;
+		}
+	</style>
+</head>
+<body>
+	<div class="abc">
+		<div class="text">
+			<h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+			<h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+			<p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+		</div>
+	</div>
+	<div class="abc">
+		<div class="text">
+			<h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+			<h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+			<p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+		</div>
+	</div>
+	<div class="abc">
+		<div class="text">
+			<h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+			<h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+			<p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+		</div>
+	</div>
+	<div class="abc">
+		<div class="text">
+			<h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+			<h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+			<p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+		</div>
+	</div>
+	<div class="abc">
+		<div class="text">
+			<h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+			<h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+			<p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+		</div>
+	</div>
+	<div class="abc">
+		<div class="text">
+			<h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+			<h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+			<p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+		</div>
+	</div>
+	<div class="abc">
+		<div class="text">
+			<h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+			<h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+			<p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+		</div>
+	</div>
+</body>
+	<script>
+		$('.abc').jqueryScrollAnimate({
+			direction:true,
+			distance:0,
+			animated:'.ani'
+		})
+	</script>
+</html>
