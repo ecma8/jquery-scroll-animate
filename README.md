@@ -6,21 +6,21 @@
 ## 插件配置 
 ### JS相关引入
 ```html
-  	<script src="src/jquery-1.11.3.js"></script>
-  	<script src="src/jquery-scroll-animate.js"></script>
+<script src="src/jquery-1.11.3.js"></script>
+<script src="src/jquery-scroll-animate.js"></script>
 ```
 ### CSS相关引入
 ```html
-	<link rel="stylesheet" href='src/animate.css'>
+<link rel="stylesheet" href='src/animate.css'>
 ```
 ### JS插件配置
 ```html
 <script>
-	$('.abc').jqueryScrollAnimate({
-		direction:false,//是否重复播放动画 true为默认值 false 只播放一次 true可重复播放
-		distance:0,//触发高度设置 根据需要动画的根元素与滚动条的高度判断关系 可以为负值
-		animated:'.ani'// 需要动画元素的css类 默认为.ani		
-    })
+$('.abc').jqueryScrollAnimate({
+	direction:false,//是否重复播放动画 true为默认值 false 只播放一次 true可重复播放
+	distance:0,//触发高度设置 根据需要动画的根元素与滚动条的高度判断关系 可以为负值
+	animated:'.ani'// 需要动画元素的css类 默认为.ani		
+})
 </script>
 ```  
 ### DOM相关
