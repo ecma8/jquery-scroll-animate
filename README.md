@@ -26,18 +26,18 @@ $('.abc').jqueryScrollAnimate({
 ### DOM相关
 ```html
 <div class="abc">
-  <div class="text">
-    <h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
-    <h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
-    <p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
-  </div>
+    <div class="text">
+        <h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+        <h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+        <p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+    </div>
 </div>
 <div class="abc">
-  <div class="text">
-    <h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
-    <h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
-    <p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
-  </div>
+    <div class="text">
+        <h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>这是一个大标题</p>
+        <h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>这是一个小标题</p>
+        <p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>这是一段内容</p>
+    </div>
 </div>
 ```
 * animate-effect 动画方式 参考animate.css
