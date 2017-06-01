@@ -11,6 +11,7 @@
                         visibility:"hidden"
                     })
                 });
+                
                 function animateStart(obj){
                     var child=obj.find(animated);
                     child.each(function(index,item){
